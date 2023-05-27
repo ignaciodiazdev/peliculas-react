@@ -27,13 +27,13 @@ export const MovieDetails = () => {
       <img src={imageUrl} alt={movie.title} />
       <div className="col moviedetails">
         <p className="title">
-          <strong>Título - {movie.title}</strong>
+          <strong>Title: {movie.title}</strong>
         </p>
         <p>
-          <strong>Descripción - {movie.overview}</strong>
+          <strong>Description: {movie.overview}</strong>
         </p>
         <p>
-          <strong>Género: 
+          <strong>Category: 
           {generos.map( (genero) => (
             <> {genero.name}</>
           ))}
